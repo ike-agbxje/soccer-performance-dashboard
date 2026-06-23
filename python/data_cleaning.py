@@ -16,19 +16,19 @@ df = df[
 
 # verifying data was read correctly:
 # print("\n------ First 5 Rows ------")
-# print(df.head()) # view the first 5 rows
+# print(df.head())
 
 # print("\n------ Dataset Dimensions ------")
-# print(df.shape) # double check dimensions
+# print(df.shape)
 
 # print("\n------ Column Names ------")
-# print(df.columns) # view the column names
+# print(df.columns)
 
 # print("\n------ Dataset Info ------")
-# df.info() # view more info about the data
+# df.info()
 
 # print("\n------ Missing Values ------")
-# print(df.isnull().sum()) # double check for missing values and view how many there are if so
+# print(df.isnull().sum())
 
 # create maps to assign points to the home and away teams depending on who won using the classic 0/1/3 soccer point standard
 home_points_map = {
